@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./assets/Gilroy-Regular.ttf') format('truetype'); /* Modify the path based on where your font is */
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'custom1';
+    src: url('./assets/Satoshi-Regular.otf');
+  }
